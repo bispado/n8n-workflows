@@ -1,0 +1,16 @@
+# Segredos e variáveis de ambiente
+.env
+.env.*
+*.pem
+*.key
+
+# Exports brutos do n8n (sanitize antes de versionar)
+*_raw.json
+*.credentials.json
+credentials/
+
+# SO / editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
